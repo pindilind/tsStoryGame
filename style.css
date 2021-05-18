@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+#grad {
+    background-image: linear-gradient(to right, #197BBD , #125E8A , #204B57);
+    text-align: center;
+    color: whitesmoke;
+    
+}
+
+/* #mainContainer {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+} */
+
+.questionDiv {
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+#rightBtn{
+    height: 50px;
+    width: 250px;
+    background-color: #2B3A67;
+    color: white;
+    margin-left: 5rem;
+}
+
+
+  #rightBtn:hover {
+    background-color: #222e52; 
+    color: white; 
+  }
+
+#leftBtn{
+    height: 50px;
+    width: 250px;
+    background-color: #2B3A67;
+    color: white;
+}
+
+#leftBtn:hover {
+    background-color: #222e52; 
+    color: white;
+  }
